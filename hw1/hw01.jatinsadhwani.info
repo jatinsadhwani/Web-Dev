@@ -1,0 +1,13 @@
+server{
+	listen 80;
+	listen [::]:80;
+	
+	root /home/jatin/www/hw1/jatinsadhwani.info/;
+	
+	index hw1.html;
+	
+	server_name hw01.jatinsadhwani.info;
+	location / {
+		try_files $uri $uri/ =404;
+	}
+}
