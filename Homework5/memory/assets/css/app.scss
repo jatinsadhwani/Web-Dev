@@ -1,0 +1,36 @@
+/* This file is for your main application css. */
+
+@import "bootstrap";
+
+.side { padding: 4ex; text-align: center; }
+h1 { text-align: center; }
+body{
+  background-color: lightblue;
+}
+
+.normalButton{
+  height : 100px;
+  width : 100px;
+  margin-left : 40px;
+  margin-right : 40px;
+  margin-left : 40px;
+  margin-top : 40px;
+  font-size: 25px;
+}
+
+p{
+  font-size: 30px;
+  font-family: sans-serif;
+  margin-left : 40px;
+  margin-right : 40px;
+  margin-left : 40px;
+  margin-top : 40px;
+}
+
+.resetButton{
+  height : 70px;
+  width :120px;
+  margin-left : 40px;
+  margin-right : 40px;
+  margin-top : 20px;
+}
